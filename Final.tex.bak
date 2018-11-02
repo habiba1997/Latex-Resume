@@ -56,7 +56,11 @@
 {0em} 
 {}
 
-
+\titleformat{\subsubsection}
+{\small\itshape}
+{}
+{0em} 
+{}
 
  \smartdiagramset{
       bubble center node font = \large,
@@ -87,28 +91,22 @@
 \section*{Full Stack Web Development}
 \includegraphics[scale=0.65]{Web.png}
 \section*{Interpersonal Skills}
-%\includegraphics[scale=0.2]{Pie.png}
-\makebox[0pt][l]\tab{\tab\color{blue}\hspace{0.1em}$\checkmark$}	Leadership 
 
-\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Positive attitude
+\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Leadership 
 
-\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Time Management 
+\makebox[0pt]\tab{\color{blue}\hspace{-1.5em}$\checkmark$}	Time Management 
 
-\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Assiduous 
+\makebox[0pt]\tab{\color{blue}\hspace{-1.5em}$\checkmark$}	Assiduous \& Organized
 
-\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Organized
-
-\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Comunicative
-     
-\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Hardworker
+\makebox[0pt]\tab{\color{blue}\hspace{-1.5em}$\checkmark$}	Hardworker
  
-\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Team Management 
+\makebox[0pt]\tab{\color{blue}\hspace{-1.5em}$\checkmark$}	Team Management 
  
-\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Strong work ethics
- 
-\makebox[0pt][l]\tab{\color{blue}\hspace{0.1em}$\checkmark$}	Disciplined 
-   
-   
+\makebox[0pt]\tab{\color{blue}\hspace{-1.5em}$\checkmark$}	Strong work ethics
+
+\section*{Languages}
+\vspace{-7px}
+\includegraphics[scale=0.55]{languages2.png}
 \end{textblock}
 
 \begin{textblock}{9.6}(5.6,.1)
@@ -125,14 +123,11 @@
 \item[2013--2015] Oruba International High School (American Diploma)
 \end{cvlist}
 \section*{College Related Courses}
+Algorithm and Data Structure Using C++ Language\\
 %Content: Static Arrays, Dynamic Arrays, Struct, Stacks, Linked Lists, Queues, Priority Queues, Binary Search Trees, Sets, Maps, Heaps, and finally Hash Tables.
-\begin{cvlist}{\vspace{-10pt}}
-\item[2/2018--6/2018] Algorithm and Data Structure Using C++ Language
-\item[2/2018--6/2018] Object Oriented Programing Using Java
-\item[10/2018--1/2019] Databases and File Structure Using MySQL
-\item[10/2018--1/2019] Probability and Statistics
-
-\end{cvlist} 
+Object Oriented Programing Using Java\\
+Databases and File Structure Using MySQL\\
+Bio-statistics
 
 
 \section*{Competitions} 
@@ -180,8 +175,7 @@ A python GUI game where a player answer various questions related to his choosen
 %------------------------------------------------------------------
 %------------------------------------------------------------------
 \begin{textblock}{3.3}(.6,0)
-\section*{Languages}
-\includegraphics[scale=0.55]{languages2.png}
+
 \section*{Interests}
 Solving Codes, Web Development, Basketball \& Reading
 
